@@ -187,6 +187,33 @@ nav{position:sticky;top:0;z-index:30;background:rgba(243,240,232,.94);backdrop-f
 .agent-demo-foot{padding:8px 12px;border-top:1px solid rgba(32,35,38,.12);font:500 .55rem/1.4 'DM Mono',monospace;text-transform:uppercase;color:#6f6b64}
 @media(max-width:600px){.agent-launcher{right:14px;bottom:14px}.agent-demo{right:14px;bottom:68px}}
 </style>
+
+<style id="certificate-alignment-fix">
+.credentials .cred{
+  display:grid !important;
+  grid-template-columns:460px 320px 1fr !important;
+  column-gap:24px !important;
+  align-items:center !important;
+}
+
+.credentials .cred > strong{
+  justify-self:start !important;
+  text-align:left !important;
+}
+
+.credentials .cred > span:nth-child(2){
+  justify-self:start !important;
+  text-align:left !important;
+  width:320px !important;
+}
+
+.credentials .cred .type{
+  justify-self:end !important;
+  text-align:right !important;
+  min-width:160px !important;
+}
+</style>
+
 </head>
 <body>
 <div class="topline"><div class="wrap mono"><span>Harshit Kotnala · Photo Palette Prototype / 2026</span><span class="status"><i class="dot"></i> Open to full-time roles in Ireland</span></div></div>
